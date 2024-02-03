@@ -20,8 +20,8 @@ for (const modelDefiner of modelDefiners) {
 
 (async () => {
     try {
-        // await sequelize.sync({alter: true});
-        await sequelize.sync({force:true});
+        await sequelize.sync({alter: true});
+        // await sequelize.sync({force:true});
         console.log("All models were synchronized successfully.");
     } catch (error) {
         console.log(error);
