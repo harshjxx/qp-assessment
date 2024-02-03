@@ -1,6 +1,9 @@
 # qp-assessment
 question proassignment
 
+DB USED : MYSQL (look at the config folder)
+start app : "npm start"
+
 POSTMAN API collection
 
 {
